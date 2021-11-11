@@ -4,7 +4,7 @@ Citizen.CreateThread(function()
         Citizen.Wait(0)
         if IsControlJustPressed(1, 303) then 
             vtrragdoll = true
-            while vtrragdoll == true do
+            while vtrragdoll do
                 Citizen.Wait(0)
 
                 if IsControlJustPressed(1, 303) then 
